@@ -67,7 +67,7 @@
     transition:all 0.1s;
 }
 
-@media (max-width:75rem) {
+@media (max-width:50rem) {
   .navbar {
     flex-direction: column;
     padding: 0 8em;
@@ -281,7 +281,7 @@
     }
 }
 
-@media (max-width:75rem) {
+@media (max-width:50rem) {
   .hero-section{
     flex-direction: column-reverse;
     justify-content: center;
@@ -466,7 +466,7 @@
     background-image: url(Image/Project4.png);
 }
 
-@media (max-width:80rem){
+@media (max-width:50rem){
     .page-header{
         padding-top: 1rem;
         font-size: 3rem;
@@ -605,7 +605,7 @@
     margin: 0.9375rem 0;
 }
 
-@media (max-width:81.25rem){
+@media (max-width:50rem){
     .skills-container{
         flex-direction: column;
         padding: 2.5rem;
@@ -769,21 +769,27 @@ footer{
     transition-duration: 0.6s;
 }
 
-@media (max-width: 80rem){
+@media (max-width: 60rem){
     .footer{
         padding: 2rem;
+        margin: 0 auto;
     }
     .footer-wrapper{
+        flex-direction: column;
         justify-content: space-between;
         gap: 7rem;
         padding: 0;
         margin: 0 auto;
     }
     .footer-faded-text{
-        font-size: 3em;
+        font-size: 3rem;
+
     }
     .link-wrapper{
         gap: 1rem;
-        margin-left: -2.5rem;
+        margin-left: -2rem;
+    }
+    .icon-wrapper{
+        padding-right: 3rem;
     }
 }
