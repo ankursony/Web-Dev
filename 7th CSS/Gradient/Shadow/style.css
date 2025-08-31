@@ -1,0 +1,20 @@
+h1{
+    text-shadow: 2px 2px 2px rgb(238, 5, 5),6px 6px 6px rgb(85, 158, 16);
+}
+.box{
+    background-color: aquamarine;
+    height: 200px;
+    width: 180px;
+    padding: 20px;
+    box-shadow: -6px 6px 6px 3px chartreuse;
+    color:blueviolet
+
+} 
+.opo{
+    background-color: rgb(214, 189, 189);
+    height:200px;
+    width: 180px;
+    padding: 20px;
+    box-shadow: 0,0,0,10px black;
+    color: brown;
+}

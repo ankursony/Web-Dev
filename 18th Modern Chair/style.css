@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: "Poppins", sans-serif;
+    overflow: hidden;
+    font-weight: 400;
+    font-size: 0.93rem;
+    line-height: 1.7;
+    color: #fff;
+    background-color:  #1f2029;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    /* overflow-x: none; */
+}
+
+p{
+
+}
+
+.section-fluid-main{
+    position: relative;
+    width: 100%;
+    /* overflow: hidden; */
+}
+
+.section{
+    position: relative;
+    /* max-width: calc(100%-2.5rem); */
+    width: 53.75rem;
+    display: flex;
+    /* flex-wrap: wrap; */
+    margin: 0 auto;
+    padding: 6.25rem 0;
+}
+
+.section-fluid{
+    position: relative;
+    display: block;
+}
+
+/* [type="radio"]:checked,
+[type="radio"]:not(:checked) {
+  position: absolute;
+  visibility: hidden;
+}
+
+.color-btn:checked + label,
+.color-btn:not(:checked) + label{
+    position: relative;
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 0.25rem;
+    border: none;
+    overflow: hidden;
+    cursor: pointer;
+    color: #ffeba7;
+    margin-top: 0.62rem;
+    margin-right: 0.62rem;
+    box-shadow: 0 12px 35px 0 rgba(16, 39, 112, 0.25);
+    background-position: center;
+    background-size: cover;
+    border: 0.18rem solid transparent;
+    background-color: #fff;
+    z-index: 10;
+    transition: all 200ms linear;
+}
+
+.color-btn:checked + label{
+    border-color: #434343;
+    transform: scale(1.1);
+}
+
+label .color-1{
+    margin-left: 31.25rem;
+    background-image:url(Images/color1.jpg) ;
+} */
+
+
+

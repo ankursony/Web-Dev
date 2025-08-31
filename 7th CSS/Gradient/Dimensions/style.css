@@ -1,0 +1,14 @@
+.box{
+    max-height: 100px;
+    /* border-style: dashed; */
+    border: 5px solid rgb(158, 65, 3);
+    border-style:inset ;
+    border-radius: 3px;
+    /* overflow: scroll; */
+    overflow:auto;
+}
+.mydiv{ 
+    border: 2px solid black;
+    min-height: 100px;
+    margin: 10px;
+}

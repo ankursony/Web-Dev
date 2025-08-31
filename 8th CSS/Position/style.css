@@ -1,0 +1,29 @@
+/* p{
+    position: static;
+} */
+div{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: aquamarine;
+}
+.div2{
+   
+    /* position: absolute;
+    top: 50px;
+    left: 50px;  */
+}
+.wrapper{
+    height: 2000px;
+    width: 100vw;
+    background-color: chartreuse;
+}
+.div1{
+    /* position: fixed; */
+}
+.div4{
+    position: sticky;
+    top: 5px;
+}

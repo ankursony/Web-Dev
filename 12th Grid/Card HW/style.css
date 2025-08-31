@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+  --darkGreen: hsl(158, 36%, 37%);
+  --cream: hsl(30, 38%, 92%);
+  --gray: hsl(228, 12%, 48%);
+  --white: hsl(0, 0%, 100%);
+  --head: 2rem;
+  --text: 1rem;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color:var(--cream);    
+}
+img{
+    max-width: 100%;
+}
+.card{
+    margin: 1em 2em;
+    max-width: 500px;
+    background-color:var(--white);
+    border-radius: 1.5em;
+    display: flex;
+    
+}
+.image{
+    display: block;
+    width: 900px;
+    height: 100%;
+    border-radius: 1.5em 0 0 1.5em;
+  
+}
+.product-detail{
+    text-align: left;
+    margin:1.5em 2em ;
+}
+

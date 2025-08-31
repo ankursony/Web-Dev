@@ -1,0 +1,35 @@
+.box{
+    height: 500px;
+    width: 250px;
+    padding: 10px;
+    border: 2px solid black;
+    display: block;
+    border-radius: 20px;
+    font-family: sans-serif;
+    /* background-color: rgb(180, 180, 230); */
+    font-size: medium;
+    font-weight: bold;
+    box-shadow: 5px 5px 5px rgb(52, 169, 247);
+    background-image: linear-gradient(to right bottom, rgb(172, 218, 7),rgb(99, 228, 99));
+    
+}
+#jolo{
+    border-radius: 20px;
+    
+}
+.jio{
+    height: 30px;
+    width: 230px;
+    margin: 2px;
+    padding: 5px;
+    border-radius: 8px;
+    background-color: rgb(76, 76, 202);
+    color: antiquewhite;
+    
+    
+}
+.jio:hover{
+    color: rgb(212, 3, 3);
+    
+}
+

@@ -1,0 +1,10 @@
+.wrpper{
+    height: 100vh;
+}
+.text{
+    position: absolute;
+}
+.div2{top: 0; right: 0;}
+.div3{bottom: 0; left: 0;}
+.div4{bottom: 0; right: 0;}
+.div5{top:50% ; left:50% ;}

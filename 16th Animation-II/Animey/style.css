@@ -1,0 +1,44 @@
+.container{
+    width: 100%;
+    height: 218px;
+    background-color: yellowgreen;
+    border: 2px solid red;
+}
+.box{
+    height: 212px;
+    width: 212px;
+    border: solid black;
+    background-color: aquamarine;
+
+    animation-name: animey;
+    animation-duration:3s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+    animation-delay: 1s;
+    /* animation-direction: alternate; */
+    animation-fill-mode: forwards;
+}
+/* @keyframes animey{
+    from{
+        width: 212px;
+    }
+    to{
+        width: 500px;
+    }
+    
+} */
+
+@keyframes animey{
+    0%{
+        width: 212px;
+        background-color: orange;
+    }
+    50%{
+        width: 50%;
+        background-color: white;
+    }
+    100%{
+        width: 100%;
+        background-color:green;
+    }
+}
