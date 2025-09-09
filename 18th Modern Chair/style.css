@@ -406,16 +406,3 @@ h4 span{
 .for-color-6:checked ~ .info-wrap .btn:before{
     background-color: #5d6160;
 }
-
-@media screen and (max-width: 50rem){
-    .section{
-        margin: 0 auto;
-        text-align: center;
-        max-width: calc(100%-40px);
-        width: 25rem;
-    }
-    .label.color-1{
-        margin: 0 auto;
-        
-    }
-}
