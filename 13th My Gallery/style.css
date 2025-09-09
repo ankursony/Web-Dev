@@ -87,5 +87,6 @@ h1:hover{
     }
     .card{
         width: 95%;
+        object-fit: cover;
     }
 }
